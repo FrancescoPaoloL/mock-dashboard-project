@@ -1,5 +1,5 @@
 # Mock dashboard project
-This is just an example project created as part of an experiment with Azure, Node.js, and EJS. It’s not intended for production use, but rather to explore and test how these technologies work together.
+This is just an example project created as part of an experiment with Azure, Node.js, and EJS. It’s intended to explore and test how these technologies work together.
 
 ## Languages and Tools
 ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
