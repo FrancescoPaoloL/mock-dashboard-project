@@ -1,64 +1,86 @@
+/* Base Styles for All Devices */
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f9;
-  }
-  
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f9;
+  line-height: 1.6;
+}
+
+.container {
+  width: 80%;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+  text-align: center;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+.stats, .activities, .fraud-transactions {
+  margin-top: 30px;
+}
+
+h2 {
+  color: #333;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  margin: 10px 0;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+.suspicious {
+  background-color: #f9d71c;
+  color: #000;
+}
+
+.fraudulent {
+  background-color: #e74c3c;
+  color: #fff;
+}
+
+@media (max-width: 768px) {
   .container {
-    width: 80%;
-    margin: 20px auto;
-    padding: 20px;
-    background-color: #fff;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  }
-  
-  header {
-    text-align: center;
+    width: 90%;
+    padding: 10px;
   }
   
   h1 {
-    font-size: 2em;
+    font-size: 1.5em;
   }
-  
-  .stats, .activities, .fraud-transactions {
-    margin-top: 30px;
-  }
-  
-  h2 {
-    color: #333;
-  }
-  
-  ul {
-    list-style-type: none;
-    padding: 0;
-  }
-  
-  ul li {
-    margin: 10px 0;
-  }
-  
-  /* Fraud Transaction Table */
+
   table {
-    width: 100%;
-    border-collapse: collapse;
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
   }
-  
-  table, th, td {
-    border: 1px solid #ddd;
-  }
-  
+
   th, td {
-    padding: 10px;
-    text-align: left;
+    min-width: 100px;
   }
-  
-  .suspicious {
-    background-color: #f9d71c;
-  }
-  
-  .fraudulent {
-    background-color: #e74c3c;
-  }
-  
+}
