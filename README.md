@@ -1,4 +1,4 @@
-# BogusExample
+# Mock dashboard project
 This is just an example project created as part of an experiment with Azure, Node.js, and EJS. It’s not intended for production use, but rather to explore and test how these technologies work together.
 
 ## Languages and Tools
